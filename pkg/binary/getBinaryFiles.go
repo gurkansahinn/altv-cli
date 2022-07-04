@@ -30,7 +30,7 @@ func GetBinaryFiles(branch string) []BinaryFile {
 		},
 		{
 			RootPath: "libnode.so.102",
-			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/js-module/${%s}/x64_linux/modules/js-module/libnode.so.102", branch),
+			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/js-module/%s/x64_linux/modules/js-module/libnode.so.102", branch),
 		},
 		{
 			RootPath: "start.sh",
@@ -38,7 +38,7 @@ func GetBinaryFiles(branch string) []BinaryFile {
 		},
 		{
 			RootPath: "altv-server",
-			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/server/${branch}/x64_linux/altv-server", branch),
+			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/server/%s/x64_linux/altv-server", branch),
 		},
 	}
 
@@ -61,11 +61,11 @@ func GetBinaryFiles(branch string) []BinaryFile {
 		},
 		{
 			RootPath: "libnode.dll",
-			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/js-module/${%s}/x64_win32/modules/js-module/libnode.dll", branch),
+			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/js-module/%s/x64_win32/modules/js-module/libnode.dll", branch),
 		},
 		{
 			RootPath: "altv-server.exe",
-			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/server/${branch}/x64_win32/altv-server.exe", branch),
+			CdnUrl:   fmt.Sprintf("https://cdn.altv.mp/server/%s/x64_win32/altv-server.exe", branch),
 		},
 	}
 

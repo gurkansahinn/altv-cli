@@ -7,7 +7,7 @@ import (
 
 var initCommand = &cobra.Command{
 	Use:   "init",
-	Short: "alt:V CLI Init",
+	Short: "Download alt:V binary files",
 	Long:  `Downloads alt:V binary files quickly`,
 	Run:   execute,
 }
